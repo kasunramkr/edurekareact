@@ -1,16 +1,17 @@
 import React from 'react';
-import './App.css';
+import './BodyComponent.jsx.css';
 
-function App() {
+function BodyComponent() {
     return (
         <div className="App">
             <header className="App-header">
                 <p>
-                    Hello World App
+                    Hello World BodyComponent
                 </p>
+                <p> Sum is : {1+2}</p>
             </header>
         </div>
     );
 }
 
-export default App;
+export default BodyComponent;
